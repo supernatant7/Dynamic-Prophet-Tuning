@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Dynamic Hyperparameter Tuning for Prophet with and without
+  Exogenous Variable
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nathan Ray
+    family-names: Alim
+    email: stereogenic0711@gmail.com
+    orcid: 'https://orcid.org/0009-0007-0339-063X'
+repository-code: 'https://github.com/supernatant7/Dynamic-Prophet-Tuning.git'
+abstract: >-
+  This code is used for Prophet in R optimized with dynamic
+  hyperparameter optimization for change point prior scale
+  and seasonality prior scale with 'multiplicative'
+  seasonality. Parallelization was also applied and the
+  codes were written for Mac OS, Ubuntu, and Windows. The
+  accuracy of the model was evaluated using MAE, RMSE, MAPE
+  with rolling origin cross-validation for robustness and
+  reliability.
+keywords:
+  - Prophet
+  - forecasting
+  - machine learning
+license: CC0-1.0
